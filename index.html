@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Escale:digital lab</title>
+  <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Hind' rel='stylesheet' type='text/css'>
+  <style>
+    html, body{
+      width: 100%;
+      height: 100%;
+      margin: 0;
+      padding: 0;
+    }
+    body{
+      font-family: 'Hind', sans-serif;
+      color: white;
+    }
+    .container{
+      display:flex;
+      justify-content:center;
+      align-items:center;
+      width:100%;
+      height:100%;
+      background-image: url(http://unsplash.com/photos/5ulmc8IHdLc/download);
+      background-size: cover;
+    }
+    h1{
+      font-family: 'Montserrat', sans-serif;
+      text-transform: uppercase;
+    }
+    h1 a{
+      opacity: .8;
+      transition: opacity .5s;
+    }
+    h1 a:hover, h1 a:active, h1 a:focus{
+      text-decoration: none;
+      opacity: 1;
+    }
+    h1 img{
+      max-width: 300px;
+      width: 100%;
+    }
+    footer{
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+      text-align: center;
+      opacity: .7;
+      font-size: .85em;
+    }
+    a{
+      color: inherit;
+      text-decoration: none;
+    }
+    a:hover, a:active, a:focus{
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <main class="container">
+    <div class="logo">
+      <h1><a href="mailto:hello@escale.digital" target="_blank"><img src="logo.png" alt="Escale"></a></h1>
+    </div>
+  </main>
+  <footer>
+    <a href="https://unsplash.com/photos/5ulmc8IHdLc" target="_blank">Picture by Jonathan Bean</a>
+  </footer>
+</body>
+</html>
